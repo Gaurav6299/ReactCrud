@@ -1,0 +1,96 @@
+.input-field {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  background: #0c0a0a;
+  width: 720px;
+  margin: auto;
+  position: relative;
+  top: 21px;
+  padding: 22px;
+  box-shadow: 2px 6px 13px #9a9090;
+
+  .name {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    padding: 7px;
+    width: 600px;
+    border-radius: 6px;
+    border: 2px solid #afa2a2;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  label {
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  .button {
+    margin-left: 70%;
+    button {
+      padding: 10px;
+      width: 110px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+  }
+}
+
+.details {
+  margin-top: 44px;
+  width: 100%;
+  .table {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 34px;
+    h2 {
+      font-size: 31px;
+      text-align: center;
+      color: #686262;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .edit {
+      padding: 8px;
+      width: 70px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background: #46e446;
+      color: #fff;
+      border: 1px solid #fff;
+      margin-top: 4px;
+      cursor: pointer;
+    }
+
+    .delete {
+      padding: 8px;
+      width: 70px;
+      background: red;
+      color: #fff;
+      border: 1px solid #fff;
+      margin-top: 4px;
+      cursor: pointer;
+    }
+  }
+}
